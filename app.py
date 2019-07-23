@@ -5,7 +5,7 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "A Calm Cloud Cats")
+option_a = os.getenv('OPTION_A', "A little Calm Cloud Cats")
 option_b = os.getenv('OPTION_B', "A little Calm Cloud Dogs")
 hostname = socket.gethostname()
 
